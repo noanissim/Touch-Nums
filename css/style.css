@@ -1,0 +1,63 @@
+.clicked{
+    background-color:grey
+}
+
+body{
+    text-align: center;
+    background-image:url("/1.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-color:#cccccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    border: 0.5px solid gray;
+    background-color: #F4DFD0;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: #DAD0C2;
+    cursor: pointer;
+
+}
+
+.timer{
+    border: 1px solid grey;
+    width: 30%;
+    margin: auto;
+    background-color:#F4DFD0;
+}
+
+h1{
+    font-style: italic;
+    
+    color: rgb(61, 61, 61);
+}
+
+h2{
+    font-style: italic;
+    
+    color: rgb(61, 61, 61);
+}
+
+table{
+    margin: 10px auto;
+    table-layout: fixed;
+    padding: 5px;
+    background-color: #fdfafc;
+    border:1px solid  grey;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgb(110, 107, 107);
+    box-sizing: border-box;
+}
+
+td{
+    border: black 1.5px solid;
+    
+}
+
+.hidden{
+    display: none;
+}

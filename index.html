@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch-nums</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="init()">
+    
+<h1>Touch-nums</h1>
+<h2>The best player is: <span class="span">null</span></h2>
+<div class="timer">00:00:00</div>
+
+<div class="buttons">
+    <button onclick="chooseSize(this)" class="btn easy">Easy 16</button>
+    <button onclick="chooseSize(this)" class="btn medium">Medium 25</button>
+    <button onclick="chooseSize(this)" class="btn hard">Hard 36</button>
+</div>
+
+
+<table border="1" cellpadding="10">
+
+    <tbody class="board">
+
+    </tbody>
+
+</table>
+
+<button class="btn-reset hidden" onclick="restart()">Reset</button>
+
+<script src="app.js"></script>
+</body>
+</html>
